@@ -1,0 +1,7 @@
+{
+  // Texts of DiceKingdoms Building Limits: English is needed, other languages fall back to it. Languages: en, de, fr, ru, uk, zh-CN.
+  // A file <DllName>.texts.json next to the DLL wins line by line. rule./group. translate lobby rules (ModCore); the buildings' titles are
+  // the game's own building names in the game's language (set by the mod), so they are not listed here.
+  "group.limits.title": {"en": "Building limits", "de": "Gebäudelimits", "fr": "Limites de bâtiments", "ru": "Лимиты зданий", "uk": "Ліміти будівель", "zh-CN": "建筑上限"},
+  "rule.limits.WALL.description": {"en": "Counted in pieces.", "de": "Gezählt in Mauerstücken.", "fr": "Compté en morceaux de mur.", "ru": "Считается по секциям стены.", "uk": "Рахується за секціями стіни.", "zh-CN": "按城墙段计算。"}
+}
