@@ -23,7 +23,7 @@ mod (ModCore compares the mods in the lobby).
 
 ## Install
 
-Needs BepInEx 6 (IL2CPP), [ModCore](https://github.com/DiceModders/DiceKingdoms-ModCore) 1.3.0 or newer and, to set the limits in the lobby,
+Needs BepInEx 6 (IL2CPP), [ModCore](https://github.com/DiceModders/DiceKingdoms-ModCore) 1.3.1 or newer and, to set the limits in the lobby,
 [ModBridge](https://github.com/DiceModders/DiceKingdoms-ModBridge) 1.1.0 or newer (with [UiKit](https://github.com/DiceModders/UiKit)). Put
 `DiceModders.BuildingLimits.dll` into `BepInEx\plugins`, with the game closed.
 

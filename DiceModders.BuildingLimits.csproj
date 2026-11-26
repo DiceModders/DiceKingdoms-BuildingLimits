@@ -6,7 +6,7 @@
     <AssemblyName>DiceModders.BuildingLimits</AssemblyName>
     <RootNamespace>DiceModders.BuildingLimits</RootNamespace>
     <Description>Building limits for Dice Kingdoms: the host sets how many buildings of each kind one island may have. A lobby rule.</Description>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>DiceModders</Authors>
     <LangVersion>latest</LangVersion>
     <Nullable>disable</Nullable>

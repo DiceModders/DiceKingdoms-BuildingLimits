@@ -19,7 +19,7 @@ public sealed class Plugin : BasePlugin
 {
     public const string Guid = "org.dicemodders.dicekingdoms.buildinglimits";
     public const string Name = "DiceKingdoms Building Limits";
-    public const string Version = "1.0.0";
+    public const string Version = "1.0.1";
 
     internal static ManualLogSource L;
     /// <summary>The mod's own switch ([General] Enabled).</summary>
@@ -32,7 +32,7 @@ public sealed class Plugin : BasePlugin
         Tx.Load();
         L = Log;
         Limits.Install();
-        Core.Mods.Switch(Config, description: "Turns the Building limits rules of this mod on or off.")
+        Core.Mods.Switch(Config, affectsSimulation: true, description: "Turns the Building limits rules of this mod on or off.")
             .WhenOn(() => On = true, () => On = false);
     }
 
